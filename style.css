@@ -1,0 +1,123 @@
+/* Write some CSS below */
+body{
+	font-family: Overpass;
+	font-size:  18px;
+	color: rgb(30,30,30);
+	background-color: rgb(230,230,230);
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3{
+	font-family: Chivo;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/banniere3.jpeg);
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0px;
+	color: white;
+}
+
+.banner h1 {
+	font-size: 160px;
+	color: white;
+}
+
+.banner p {
+	font-size: 38px;
+	color: white;
+}
+
+.btn-yellow {
+	color: white;
+	background-color: #80ad82;
+	padding: 15px 45px;
+	border-radius: 20px;
+	margin-top : 30px
+}
+
+.btn-yellow:hover {
+	opacity: 0.8;
+}
+
+.introduction {
+	background-color: white;
+	padding: 40px 0px;
+}
+
+.introduction p {
+	text-align: justify;
+	font-size: 16px;
+	margin: 0px 240px 0px 240px;
+}
+
+.card-white {
+	background-color: white;
+	width: 220px;
+	padding: 24px;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: Opx Opx 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.coup-de-coeur {
+	background-color: white;
+	padding: 10px 80px 10px 80px;
+	margin: 0px 240px 0px 240px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.coup-de-coeur img {
+	width: 800px;
+	height: 500px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.coup-de-coeur p {
+	text-align: justify;
+	font-size: 13px;
+}
+
+.coup-de-coeur li {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.video {
+	display: block;
+	width: 1000px;
+	height: 500px;
+	margin:auto auto 90px auto;
+	padding: 50px;
+	
+}
+
+.footer {
+	text-align: center;
+	background-color: #80ad82;
+	padding: 40px;
+}
